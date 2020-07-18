@@ -44,10 +44,11 @@ const Drawer = createDrawerNavigator();
 const App = () => {
   return (
     <NavigationContainer>
-      <Drawer.Navigator drawerContent={(props) => <DrawerContent {...props} />}>
+      <RootStackScreen />
+      {/* <Drawer.Navigator drawerContent={(props) => <DrawerContent {...props} />}>
         <Drawer.Screen name="HomeDrawer" component={TabScreen} />
-        {/* <Drawer.Screen name="Detail" component={DetailStackScreen} /> */}
-      </Drawer.Navigator>
+         <Drawer.Screen name="Detail" component={DetailStackScreen} />
+      </Drawer.Navigator> */}
     </NavigationContainer>
   );
 };

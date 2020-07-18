@@ -12,7 +12,7 @@ import {
 
 const SplashScreen = () => {
   return (
-    <View style={Styles.container}>
+    <View style={styles.container}>
       <Text>
         <Button title="click here" onPress={() => alert('Button clicked')} />
       </Text>
